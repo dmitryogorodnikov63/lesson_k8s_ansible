@@ -1,0 +1,10 @@
+- name: Example Simple Playbook
+  hosts: all
+  become: yes
+  tasks:
+  - name: Copy file example_file to /tmp with permissions
+    apt: pkg=cmatrix state=latest
+  - name: Cowsay install
+    apt: pkg=cowsay state=latest
+  - name: Sl install
+    apt: pkg=sl state=latest

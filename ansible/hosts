@@ -1,0 +1,2 @@
+[ogorodnikov]
+192.168.122.143 ansible_ssh_user=abyssal  ansible_sudo_pass=1123
